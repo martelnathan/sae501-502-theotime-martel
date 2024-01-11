@@ -44,10 +44,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$smtp_secure = getenv('SMTP_SECURE_OWN');
 	$smtp_port = getenv('SMTP_PORT_OWN');
 
-	#$destinataire1 = 'nathan.martel@etu.univ-tours.fr';
-        #$destinataire2 = 'lukas.theotime@etu.univ-tours.fr';
-        #$destinataire3 = 'yohann.denoyelle@etu.univ-tours.fr';
-
         #Fichier de base de PHPMailer, https://github.com/PHPMailer/PHPMailer
 
         $mail = new PHPMailer\PHPMailer\PHPMailer();
