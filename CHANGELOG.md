@@ -1,6 +1,6 @@
 # Changelog for the SAE501-502 Application
 
-## Version 3.2 (In Progress)
+## Version 3.2 (11/01/2024 - latest)
 
 ### New features
 
