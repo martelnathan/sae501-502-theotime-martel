@@ -2,8 +2,6 @@
 
 ## Version 3.2 (In Progress)
 
-Vault hashicorp ?
-
 ### New features
 
 - Master/slave database replication
@@ -11,6 +9,7 @@ Vault hashicorp ?
 - Addition of Netdata container.
 - Addition of a dark theme.
 - Addition of a crontab in the syslog container
+- Uninstall script
 
 ## Version 3.1 (02/12/2023)
 
