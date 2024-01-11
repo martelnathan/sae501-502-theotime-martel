@@ -133,23 +133,19 @@ if ($resul) {
 												
 						$mail = new PHPMailer\PHPMailer\PHPMailer();
 						$mail->isSMTP();
-						#$mail->Host = 'smtp.gmail.com';
+					
 						$mail->Host = $smtp_host;
              	   				$mail->SMTPAuth = true;
-						#$mail->Username = 'sae501502@gmail.com'; #Adresse e-mail gmail pour l'envoi
+						
 						$mail->Username = $smtp_user;
-						#$mail->Password = 'xqifxpjrieknuntn'; #Mot de passe d'application
+						
 						$mail->Password = $smtp_password;
-						#$mail->SMTPSecure = 'tls';
+						
 						$mail->SMTPSecure = $smtp_secure;
-						#$mail->Port = 587;
+						
 						$mail->Port = $smtp_port;
-						#$mail->setFrom('sae501502@gmail.com', 'SAE501-502 - bannissement');
+			
 						$mail->setFrom($smtp_user, 'SAÉ501-502 - bannissement');
-
-						#$mail->addAddress('nathan.martel@etu.univ-tours.fr');
-						#$mail->addAddress('lukas.theotime@etu.univ-tours.fr');
-						#$mail->addAddress('yohann.denoyelle@etu.univ-tours.fr');
 
 						$mail->addAddress($destinataire_email1);
 						$mail->addAddress($destinataire_email2);
